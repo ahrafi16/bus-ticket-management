@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Transport</title>
@@ -28,7 +29,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  
+
 </head>
 
 <body id="body">
@@ -56,15 +57,13 @@
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
-
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#body">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="registration/admin.php">Admin</a></li>
-          <li><a href="registration/login.php">login</a></li>
+          <li><a href="registration/login.php">User Login</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -76,13 +75,13 @@
   <section id="intro">
 
     <div class="intro-content">
-      <h2>Making <span>your Ride</span><br>happen!</h2>
+      <h2>Making <span> your Ride </span> <br>happen!</h2>
       <div>
         <a href="profile.php" class="btn-get-started scrollto">Ticket Book</a>
       </div>
     </div>
 
-    <div id="intro-carousel" class="owl-carousel" >
+    <div id="intro-carousel" class="owl-carousel">
       <div class="item" style="background-image: url('img/bus1.jpg');"></div>
       <div class="item" style="background-image: url('img/bus2.jpg');"></div>
       <div class="item" style="background-image: url('img/bus3.jpg');"></div>
@@ -95,7 +94,7 @@
 
   </section><!-- #intro -->
 
-  <main id="main">  
+  <main id="main">
     <section id="portfolio" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
@@ -112,7 +111,9 @@
               <a href="img/port1.jpg" class="portfolio-popup">
                 <img src="img/port1.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -123,7 +124,9 @@
               <a href="img/port2.jpg" class="portfolio-popup">
                 <img src="img/port2.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -132,9 +135,11 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/port3.jpg" class="portfolio-popup">
-                <img src="img/port3.jpg" alt=""style="height:350px;">
+                <img src="img/port3.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -143,9 +148,11 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/port4.jpg" class="portfolio-popup">
-                <img src="img/port4.jpg" alt=""style="height:350px;">
+                <img src="img/port4.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -154,9 +161,11 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/port5.jpg" class="portfolio-popup">
-                <img src="img/port5.jpg" alt=""style="height:350px;">
+                <img src="img/port5.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -165,9 +174,11 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/port6.jpg" class="portfolio-popup">
-                <img src="img/port6.jpg" alt=""style="height:350px;">
+                <img src="img/port6.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -176,9 +187,11 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/port7.jpg" class="portfolio-popup">
-                <img src="img/port7.jpg" alt=""style="height:350px;">
+                <img src="img/port7.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -187,9 +200,11 @@
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
               <a href="img/port8.jpg" class="portfolio-popup">
-                <img src="img/port8.jpg" alt=""style="height:350px;">
+                <img src="img/port8.jpg" alt="" style="height:350px;">
                 <div class="portfolio-overlay">
-                  <div class="portfolio-info"><h2 class="wow fadeInUp"></h2></div>
+                  <div class="portfolio-info">
+                    <h2 class="wow fadeInUp"></h2>
+                  </div>
                 </div>
               </a>
             </div>
@@ -199,7 +214,7 @@
 
       </div>
     </section><!-- #portfolio -->
-     <section id="Partners" class="wow fadeInUp">
+    <section id="Partners" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
           <h2>Partners</h2>
@@ -215,12 +230,11 @@
         </div>
 
       </div>
-    </section><
+    </section>
+    <
 
-    <!--==========================
-      About Section
-    ============================-->
-    <!-- <section id="about" class="wow fadeInUp">
+      <!--==========================About Section============================-->
+      <!-- <section id="about" class="wow fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
@@ -231,22 +245,43 @@
         </div>
 
       </div>
-    </section>#about -->
+    </section> -->
+      <section id="about" class="wow fadeInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 about-img">
+              <img src="img/secn.jpg" alt="Transport Management System" class="img-fluid">
+            </div>
+            <div class="col-lg-6 content">
+              <h2>About Us</h2>
+              <p>Welcome to <strong>Our Transport Management System</strong>, a reliable and efficient solution for managing bus bookings and travel arrangements. Our goal is to provide seamless travel experiences with advanced features for both users and operators.</p>
+              <p>We offer a range of services including:</p>
+              <ul>
+                <li>Real-time bus seat bookings</li>
+                <li>Multiple payment gateways for easy transactions</li>
+                <li>Tracking and booking of buses from different operators</li>
+                <li>Safe and secure payment processing</li>
+              </ul>
+              <p>Our team is dedicated to ensuring your journey is as smooth and enjoyable as possible. Whether you’re a frequent traveler or booking your first trip, we are here to serve you with the best transport solutions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-   
 
-   
-    
+
+
+
   </main>
 
-  
+
   <footer id="footer">
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>DBMS LAB PROJECT</strong>. All Rights Reserved
       </div>
       <div class="credits">
-       
+
         Designed by <a href="#">Temp Variable</a>
       </div>
     </div>
@@ -273,4 +308,5 @@
   <script src="js/main.js"></script>
 
 </body>
+
 </html>

@@ -196,8 +196,7 @@ h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #0e1251;
-  
+  color: #51b74a;
 }
 
 #intro .intro-content .btn-get-started,
@@ -257,7 +256,7 @@ h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition-property: opacity;
+  /* transition-property: opacity; */
 }
 
 /*--------------------------------------------------------------

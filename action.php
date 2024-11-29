@@ -1,5 +1,5 @@
 <?php 
-$con = mysqli_connect("localhost", "root", "", "transport","3307");
+$con = mysqli_connect("localhost", "root", "", "transport1","3307");
 session_start();
 if (isset($_POST['alogin'])) {
 	$name=$_POST['uname'];
@@ -307,7 +307,7 @@ if (isset($_POST['ticket'])) {
        <div class='row'>
          <div class='col-md-6'>
            <h4 class=' text-white'>Passenger Name :</h4>
-           <h4 class='text-white'>Adhar Card No :</h4>
+           <h4 class='text-white'>NID No :</h4>
            <h4 class='text-white'>Age :</h4>
            <h4 class='text-white'>Email :</h4>
          </div> 

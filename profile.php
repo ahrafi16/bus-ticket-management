@@ -59,7 +59,7 @@ if(!isset($_SESSION['uid'])){
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#body" class="scrollto">Tran<span>Sport</span></a></h1>
+        <h1><a href="#body" class="scrollto"><span>DIU</span> Transport</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -217,7 +217,7 @@ if(!isset($_SESSION['uid'])){
           <img src="img/partners2.jpeg" alt="">
           <img src="img/partner3.jpg" alt="">
           <img src="img/partner4.jpg" alt="">
-          <img src="img/partner5.png" alt="">
+          <img src="img/partner5.jpg" alt="">
         </div>
 
       </div>
@@ -226,7 +226,7 @@ if(!isset($_SESSION['uid'])){
     <!--==========================
       About Section
     ============================-->
-    <section id="about" class="wow fadeInUp">
+    <!-- <section id="about" class="wow fadeInUp">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
@@ -237,7 +237,28 @@ if(!isset($_SESSION['uid'])){
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section> -->
+    <section id="about" class="wow fadeInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 about-img">
+              <img src="img/secn.jpg" alt="Transport Management System" class="img-fluid">
+            </div>
+            <div class="col-lg-6 content">
+              <h2>About Us</h2>
+              <p>Welcome to <strong>Our Transport Management System</strong>, a reliable and efficient solution for managing bus bookings and travel arrangements. Our goal is to provide seamless travel experiences with advanced features for both users and operators.</p>
+              <p>We offer a range of services including:</p>
+              <ul>
+                <li>Real-time bus seat bookings</li>
+                <li>Multiple payment gateways for easy transactions</li>
+                <li>Tracking and booking of buses from different operators</li>
+                <li>Safe and secure payment processing</li>
+              </ul>
+              <p>Our team is dedicated to ensuring your journey is as smooth and enjoyable as possible. Whether you’re a frequent traveler or booking your first trip, we are here to serve you with the best transport solutions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
   
 
