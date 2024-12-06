@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "transport1", "3307");
+$con = mysqli_connect("localhost", "root", "", "transport1", "3306");
 session_start();
 if (isset($_POST['alogin'])) {
   $name = $_POST['uname'];
@@ -36,6 +36,37 @@ if (isset($_POST['signup'])) {
     }
   }
 }
+
+// Handle password recovery
+if (isset($_POST['recover'])) {
+  $name = $_POST['uname'];
+  $psw = $_POST['psw'];
+  $error = [];
+  
+  // Check if username exists
+  $check_sql = "SELECT * FROM user_info WHERE uname = '$name'";
+  $check_run = mysqli_query($con, $check_sql);
+  
+  if (mysqli_num_rows($check_run) > 0) {
+    // Update password
+    $update_sql = "UPDATE user_info SET psw = '$psw' WHERE uname = '$name'";
+    $update_run = mysqli_query($con, $update_sql);
+    
+    if ($update_run) {
+        echo "<script>alert('Password updated successfully !!');</script>";
+      
+    } else {
+        echo "<script>alert('Database error !!!');</script>";
+
+    }
+} else {
+    echo "<script>alert('Username not found');</script>";
+    
+}
+
+}
+// handle password finished
+
 if (isset($_POST['login'])) {
   $name = $_POST['uname'];
   $psw = $_POST['psw'];

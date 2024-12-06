@@ -27,22 +27,20 @@ include('../action.php');
         <div class="container">
             <div class="signup-content">
                 <form method="POST" id="signup-form" class="signup-form">
-                    <h2> Log In </h2>
+                    <h2>Recover your password </h2>
                      <div class="form-group">
                         <input type="text" class="form-input" name="uname" id="name" placeholder="Username"/>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-input" name="psw" id="password" placeholder="Password"/>
+                        <input type="text" class="form-input" name="psw" id="password" placeholder="New Password"/>
                         <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                     </div>
                     <div class="form-group">
-                        <input type="submit" name="login" id="submit" class="form-submit submit" value="Log In"/>
-                        <a href="signup.php" class="submit-link submit">Sign Up</a>
+                        <input type="submit" name="recover" id="submit" class="form-submit submit" value="Recover"/>
                     </div>
-                    <div>
-                        <a style="color : white ; text-decoration : none" href="forget.php">Forget Password ?</a>
-                    </div>
+
                 </form>
+
             </div>
         </div>
 
