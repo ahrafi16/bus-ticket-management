@@ -19,9 +19,7 @@ include('../action.php');
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <div class="main">
-
         <div class="container">
             <div class="signup-content">
                 <form method="POST" id="signup-form" class="signup-form">
